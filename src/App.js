@@ -118,7 +118,14 @@ const AddBtn = styled.div`
   width: 80px;
   height: 80px;
   color: white;
-  background-color: transparent;
+  background-image: linear-gradient(
+    to right,
+    #eea2a2 0%,
+    #bbc1bf 19%,
+    #57c6e1 42%,
+    #b49fda 79%,
+    #7ac5d8 100%
+  );
 
   right: 35%;
   bottom: 13%;
