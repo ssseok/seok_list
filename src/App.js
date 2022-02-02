@@ -114,18 +114,11 @@ const Title = styled.h3`
 `;
 
 const AddBtn = styled.div`
-  border-radius: 50%;
+  border-radius: 100px;
   width: 80px;
   height: 80px;
   color: white;
-  background-image: linear-gradient(
-    to right,
-    #eea2a2 0%,
-    #bbc1bf 19%,
-    #57c6e1 42%,
-    #b49fda 79%,
-    #7ac5d8 100%
-  );
+  background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
 
   right: 35%;
   bottom: 13%;
@@ -134,15 +127,15 @@ const AddBtn = styled.div`
   // 커서 올라갔을 때 모양 변하게
   cursor: pointer;
 
-  // &:hover {
-  //   animation: ${InSpin} 2s;
-  // }
+  &:hover {
+    animation: ${InSpin} 2s;
+  }
 
-  // &:not(:hover) {
-  //   animation: ${OutSpin} 2s;
-  // }
+  &:not(:hover) {
+    animation: ${OutSpin} 2s;
+  }
 `;
-// const Button = styled.button``;
+
 const AddBtnText = styled.div`
   text-align: center;
   padding-top: 12px;

@@ -61,7 +61,7 @@ const AddWord = (props) => {
   return (
     <Flex>
       <Wrap>
-        <Title>모든 단어장</Title>
+        <Title>단어 추가</Title>
         <Card ref={wordCard}>
           <SubTitle>단어</SubTitle>
           <Input ref={wordRef} type="text" />
@@ -84,7 +84,6 @@ const AddWord = (props) => {
               height: "50px",
               backgroundImage:
                 "linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%)",
-              //backgroundImage: "linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%)";
             }}
             onClick={addInfo}
           >
@@ -98,6 +97,7 @@ const AddWord = (props) => {
               height: "50px",
               backgroundImage:
                 "linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%)",
+              //backgroundImage: "linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%)";
             }}
             onClick={() => {
               history.goBack();
@@ -112,8 +112,6 @@ const AddWord = (props) => {
 };
 
 // styled-components
-
-// const Button = styled.button``;
 const InInput = keyframes`
   from{
     width: 90%;

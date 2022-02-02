@@ -127,7 +127,6 @@ const UpdateWord = ({ location }) => {
 };
 
 // styled-components
-// const Button = styled.button``;
 const InInput = keyframes`
   from{
     width: 90%;

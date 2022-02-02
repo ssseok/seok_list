@@ -13,6 +13,7 @@ const Spinner = (props) => {
     </Outter>
   );
 };
+
 // styled-components
 const Outter = styled.div`
   position: fixed;

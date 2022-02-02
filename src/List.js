@@ -9,7 +9,7 @@ import {
 } from "./redux/modules/dictionary";
 // → 패키지 import
 
-import seokbImg from "./seokb.png";
+import seokImg from "./seokb.png";
 import Button from "@material-ui/core/Button";
 // → 머테리얼 UI import
 
@@ -152,7 +152,7 @@ const List = (props) => {
         })
       ) : (
         <NullCard>
-          <img src={seokbImg}></img>
+          <img src={seokImg}></img>
           <div>
             아직 아무도
             <br />
