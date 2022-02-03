@@ -76,7 +76,7 @@ const List = (props) => {
   React.useEffect(() => {
     // async 쓰는 방법도 있음
     dispatch(loadDictionaryFB());
-  }, [dictionary_list]); // userInfo 넣으면 무한로딩이 일어나서, 데이터를 너무 잡아먹음
+  }, []); // userInfo 넣으면 무한로딩이 일어나서, 데이터를 너무 잡아먹음
 
   return (
     <Container>

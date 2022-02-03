@@ -182,7 +182,7 @@ export default function reducer(state = initialState, action = {}) {
     case "dictionary/CREATE":
       const new_dictionary_list = {
         is_loaded: state.is_loaded,
-        list: [...state.list, action.dictionary_info],
+        list: [...state.list],
       };
 
       return new_dictionary_list;
